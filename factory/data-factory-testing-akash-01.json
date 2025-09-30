@@ -1,0 +1,9 @@
+{
+	"name": "data-factory-testing-akash-01",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "2b466d66-e0ad-4ba9-8eb5-e584a2e98538",
+		"tenantId": "68fb41d6-7f2e-48ee-96d3-fa588a2a44e7"
+	}
+}
