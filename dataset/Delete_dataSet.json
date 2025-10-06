@@ -1,0 +1,26 @@
+{
+	"name": "Delete_dataSet",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage Connection",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"delFile": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": {
+					"value": "@dataset().delFile",
+					"type": "Expression"
+				},
+				"container": "test-sftp"
+			}
+		}
+	}
+}
